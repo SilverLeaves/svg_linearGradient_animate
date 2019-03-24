@@ -1,0 +1,24 @@
+<svg version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 299 289" enable-background="new 0 0 299 289" xml:space="preserve" >
+    <rect fill="url(#skyGradient)" height="300" width="300" x="0" y="0"  />
+    <rect fill="url(#skyGradient2)" height="300" width="300" x="0" y="0" opacity= "0.5"/>
+    <defs>
+        <linearGradient id="skyGradient" x1="100%" y1="100%">
+            <stop offset="0%" stop-color="lightblue" stop-opacity=".5">
+                <animate attributeName="stop-color" values="#ff6666;#b3ff66;#66ffff;#b366ff;#ff6666;" dur="5" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" stop-color="lightblue" stop-opacity=".5">
+                <animate attributeName="stop-color" values="#b3ff66;#66ffff;#b366ff;#ff6666;#b3ff66;" dur="5s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+        <linearGradient id="skyGradient2" x1="0" y1="0"  x2="100%" y2="0">
+            <stop offset="0%" stop-color="lightblue" stop-opacity=".5">
+                <animate attributeName="stop-color" values="#66ffff;#b366ff;#ff6666;#b3ff66;#66ffff;" dur="5s" repeatCount="indefinite" />
+            </stop>
+            <stop offset="100%" stop-color="lightblue" stop-opacity=".5">
+                <animate attributeName="stop-color" values="#b366ff;#ff6666;#b3ff66;#66ffff;#b366ff;" dur="5s" repeatCount="indefinite" />
+            </stop>
+        </linearGradient>
+    </defs>
+</svg>
